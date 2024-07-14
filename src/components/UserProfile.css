@@ -1,0 +1,41 @@
+.profile-form {
+    margin-bottom: 2rem;
+  }
+  
+  .section {
+    background-color: #f8f9fa;
+    padding: 2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #343a40;
+  }
+  
+  .feature-item {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .points-card {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  

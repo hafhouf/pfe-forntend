@@ -1,0 +1,26 @@
+/* FormDetails.css */
+
+.container-fluid.service,
+.container-fluid.about {
+  padding: 0 !important;
+}
+
+.navbar, .footer {
+  z-index: 10;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.box {
+  margin-top: 20px;
+}
+
+button.submit-btn {
+  margin-top: 20px;
+}
+
+.typography {
+  margin-bottom: 20px;
+}

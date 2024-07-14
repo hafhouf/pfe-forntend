@@ -1,0 +1,91 @@
+.admin-dashboard {
+  font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+  background-color: #343a40;
+  color: #fff;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sidebar-header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #495057;
+}
+
+.sidebar-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.sidebar-title {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.sidebar-role {
+  font-size: 0.9em;
+  color: #bbb;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item i {
+  margin-right: 10px;
+}
+
+.nav-item:hover {
+  background-color: #495057;
+}
+
+.nav-dropdown {
+  width: 100%;
+}
+
+.nav-dropdown .dropdown-toggle {
+  width: 100%;
+  text-align: left;
+}
+
+.nav-dropdown .dropdown-item {
+  padding-left: 30px;
+  color: #343a40;
+}
+
+.nav-dropdown .dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.content {
+  margin-left: 25%;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .content {
+    margin-left: 0;
+  }
+}
