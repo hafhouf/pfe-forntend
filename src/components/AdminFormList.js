@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Table, Button, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const AdminFormList = () => {
   const [forms, setForms] = useState([]);
@@ -54,7 +55,10 @@ const AdminFormList = () => {
               <td>{form.description}</td>
               <td>{new Date(form.createdAt).toLocaleDateString()}</td>
               <td>
-                <Button variant="info" href={`/form/${form.id}`} className="me-2">View</Button>
+              <Link to={`/form/${form.id}`} className="me-2">
+                <Button variant="info">View</Button>
+              </Link>
+                {/* <Button variant="info" href={`/form/${form.id}`} className="me-2">View</Button> */}
                 <Button variant="danger">Delete</Button>
               </td>
             </tr>

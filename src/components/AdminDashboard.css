@@ -11,6 +11,7 @@
   left: 0;
   height: 100%;
   overflow: hidden;
+  width: auto;
 }
 
 .sidebar-header {
@@ -75,7 +76,7 @@
 .content {
   margin-left: 25%;
   padding: 20px;
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
   min-height: 100vh;
 }
 

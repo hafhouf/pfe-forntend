@@ -97,7 +97,7 @@ const FormDetails = () => {
     <>
       <NavBar />
       <Container maxWidth="md">
-        <Box mt={4} mb={4}>
+        <Box mt={6} mb={4}>
           <Typography variant="h4" gutterBottom>{form.title}</Typography>
           <Typography variant="subtitle1" gutterBottom>{form.description}</Typography>
           <Card variant="outlined" sx={{ mb: 4 }}>
